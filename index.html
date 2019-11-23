@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Let</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+          crossorigin="anonymous">
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/superslides.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/hover-min.css" rel="stylesheet" type="text/css">    
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="loginReg">
+        <button class="btn btn-primary" data-target="#mylogin" data-toggle="modal">Login</button>
+        <button class="btn btn-primary" data-target="#myreg" data-toggle="modal">Registration</button>
+        <div id="myreg" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Registration</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Name:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Username:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Password:</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm Password:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Email:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Mobile:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <button class="btn btn-success">Registration</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mylogin" class="modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Login</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            
+                            <div class="form-group">
+                                <label>Username:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Password:</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            
+                            <button class="btn btn-success">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Super Slide-->
+<div id="slides">
+		<div class="slides-container">
+		    <img src="image/slide1.jpg" alt="">
+		    <img src="image/slide2.jpg" alt="">
+		    <img src="image/slide3.jpg" alt="">
+		</div>
+        <div class="titleMessage">
+		<div class="heading">
+			<p class="main animated infinite bounce">Home Let</p>
+			<p class="sub typed"></p>
+		</div>
+	    </div>
+		<nav class="slides-navigation">
+		    <a href="#" class="next"></a>
+		    <a href="#" class="prev"></a>
+		</nav>
+</div>
+
+<!--Navigation Section-->
+<nav id="navigation" class="navbar navbar-expand-lg sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <a class="navbar-brand navbar" href="index.html">Home Let</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#recentPost">Recent Post</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#post">Post An Ads</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--Service Section-->
+<section id="service" class="section">
+    <div class="container text-center">
+        <h2 class="main animated infinite rubberBand">Our Service</h2>
+        <div class="row serviceSection">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <a href="#">
+                <div class="squareItem">
+                    <div class="img">
+                    <img class="img-fluid image-resize" src="image/family1.jpg">
+                    </div>
+                    <div class="title">
+                    <h2>Family</h2>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <a href="#">
+                <div class="squareItem">
+                    <div class="img">
+                    <img class="img-fluid image-resize" src="image/flat.jpg">
+                    </div>
+                    <div class="title">
+                    <h2>Flat</h2>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <a href="#">
+                <div class="squareItem">
+                    <div class="img">
+                    <img class="img-fluid image-resize" src="image/bachelor.jpg">
+                    </div>
+                    <div class="title">
+                    <h2>Bachelor</h2>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <a href="#">
+                <div class="squareItem">
+                    <div class="img">
+                    <img class="img-fluid image-resize" src="image/office.jpg">
+                    </div>
+                    <div class="title">
+                    <h2>Office Space</h2>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+            
+    </div>
+</section>
+<!--RecentPost Section-->
+<section id="recentPost" class="statsSection section">
+    <h2 class="text-center main animated infinite heartBeat">সর্বশেষ বিজ্ঞাপন</h2>
+	<div class="container">
+		<div class="row">          
+            <div class="col-sm-12 col-md-6 col-lg-6">               
+                <div class="squareItem">
+                    <a href="#">
+                    <div class="col-md-5 mainSection" >
+                        <img class="img-fluid img-resize"  src="image/family-2.jpg">               
+                    </div>
+                    <div class="col-md-7 mainSection">
+                        <h4>Family</h4>
+                        <div class="areaBar">
+                            <p><i class="fas fa-map-marker-alt"></i> 14/2 basabo,razarbagh,kadamtala</p>
+                        </div>
+                        <div class="ad_facility">
+                            <p><i class="fas fa-home"></i> Bedroom: 2 Bathroom: 2</p>
+                        </div>
+                        <div class="price">
+                            <p>ভাড়াঃ ১০,০০০</p> 
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>    
+            <div class="col-sm-12 col-md-6 col-lg-6">               
+                <div class="squareItem">
+                    <a href="#">
+                    <div class="col-md-5 mainSection">
+                        <img class="img-fluid img-resize"  src="image/family-3.jpg">                   
+                    </div>
+                    <div class="col-md-7 mainSection">
+                        <h4>Family</h4>
+                        <div class="areaBar">
+                            <p><i class="fas fa-map-marker-alt"></i> b/15 chayabithi,basabo</p>
+                        </div>
+                        <div class="ad_facility">
+                            <p><i class="fas fa-home"></i> Bedroom: 2 Bathroom: 2</p>
+                        </div>
+                        <div class="price">
+                            <p>ভাড়াঃ ১৬,০০০</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>  
+            <div class="col-sm-12 col-md-6 col-lg-6">               
+                <div class="squareItem">
+                    <a href="#">
+                    <div class="col-md-5 mainSection">
+                        <img class="img-fluid img-resize"  src="image/bachelor-2.jpg">                   
+                    </div>
+                    <div class="col-md-7 mainSection">
+                        <h4>1 seat for student</h4>
+                        <div class="areaBar">
+                            <p><i class="fas fa-map-marker-alt"></i> 132/4-A Ahmedbagh, (2nd lane)</p>
+                        </div>
+                        <div class="ad_facility">
+                            <p><i class="fas fa-home"></i> Bedroom: 2 Bathroom: 1</p>
+                        </div>
+                        <div class="price">
+                            <p>ভাড়াঃ ১১,০০০</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">               
+                <div class="squareItem">
+                    <a href="#">
+                    <div class="col-md-5 mainSection">
+                        <img class="img-fluid img-resize"  src="image/flat-2.jpg">                   
+                    </div>
+                    <div class="col-md-7 mainSection">
+                        <h4>Flat</h4>
+                        <div class="areaBar">
+                            <p><i class="fas fa-map-marker-alt"></i> Block#D, Bashundhara, Dhaka</p>
+                        </div>
+                        <div class="ad_facility">
+                            <p><i class="fas fa-home"></i> Bedroom: 3 Bathroom: 2</p>
+                        </div>
+                        <div class="price">
+                            <p>ভাড়াঃ ২০,০০০</p> 
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">               
+                <div class="squareItem">
+                    <a href="#">
+                    <div class="col-md-5 mainSection">
+                        <img class="img-fluid img-resize"  src="image/office-2.jpg">                   
+                    </div>
+                    <div class="col-md-7 mainSection">
+                        <h4>Office Space</h4>
+                        <div class="areaBar">
+                            <p><i class="fas fa-map-marker-alt"></i> Block#D, Road-9 Baridhara, Dhaka</p>
+                        </div>
+                        <div class="ad_facility">
+                            <p><i class="fas fa-home"></i> ৩৫০ (বর্গফুট)</p>
+                        </div>
+                        <div class="price">
+                            <p>ভাড়াঃ ২২,০০০</p> 
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">               
+                <div class="squareItem">
+                    <a href="#">
+                    <div class="col-md-5 mainSection">
+                        <img class="img-fluid img-resize"  src="image/office-3.jpg">                   
+                    </div>
+                    <div class="col-md-7 mainSection">
+                        <h4>Office Space</h4>
+                        <div class="areaBar">
+                            <p><i class="fas fa-map-marker-alt"></i> 114/1, Main Road, Rampura, Dhaka</p>
+                        </div>
+                        <div class="ad_facility">
+                            <p><i class="fas fa-home"></i> ৪৫০ (বর্গফুট)</p>
+                        </div>
+                        <div class="price">
+                            <p>ভাড়াঃ ২৫,০০০</p> 
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+		</div>
+	</div>
+</section>
+<!--Post section-->
+<section id="post" class="section propertySection">
+    <h2 style="padding: 10px" class="text-center main animated infinite heartBeat">Post An Ads</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-4">
+                <div class="property">
+                <form>
+                    <h3 class="propertySection">Property Info</h3>
+                    <div class="form-group">
+                        <label>Image:</label><br>
+                        <input type="file">
+                    </div>
+                    <div class="form-group">
+                        <label>Address:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Area:</label>
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Citi:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Description:</label><br>
+                        <textarea rows="4" class="form-control"></textarea>
+                    </div>
+                </form>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="property">
+                    <form>
+                        <h3 class="propertySection">Property Details</h3>
+                        <div class="form-group">
+                            <input type="checkbox">
+                            <label>Air Conditioning</label><br>
+                            <input type="checkbox">
+                            <label>Balcony</label><br>
+                            <input type="checkbox">
+                            <label>Bedding</label><br>
+                            <input type="checkbox">
+                            <label>Cable Tv</label><br>
+                            <input type="checkbox">
+                            <label>Dishwasher</label><br>
+                            <input type="checkbox">
+                            <label>Internet</label><br>
+                            <input type="checkbox">
+                            <label>Parking</label><br>
+                        </div>
+                        <div class="form-group">
+                            <label>Bed Room:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Bath Room:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="property">
+                    <form>
+                        <h3 class="propertySection">Additional Info</h3>
+                        <div class="form-group">
+                            <label>Price(Tk):</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Property Type:</label>
+                            <select class="contractType">
+                            <option>Family</option>
+                            <option>Flat</option>
+                            <option>Bachelor</option>
+                            <option>Office Space</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Contract Type:</label><br>
+                            <select class="contractType">
+                            <option>For Rent</option>
+                            <option>For Sale</option>
+                            </select>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="text-center">
+        <button class="btn btn-success submit" style="width: 50%">Submit</button>
+    </div> 
+</section>
+<!--About Section-->
+<section id="about" class="section text-center">
+<h2>আমাদের সম্পর্কে</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">                                  
+                <p>এই পোর্টালটিতে ব্যবহারকারীগণ খুব সহজে তাঁর কাঙ্খিত বাসাটি খুঁজে পান। পাশাপাশি বিনামুল্যে বাড়ি ভাড়া বিজ্ঞাপন দেওয়ার সুযোগ তৈরি করা হয়েছে, যাতে খুব সহজে বিজ্ঞাপন দেওয়া যায়।</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact Section-->
+<section id="contact" class="section">
+    <h2 class="text-center main animated infinite jello" style="padding: 5px">Contact</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">                                  
+                <input class="info" type="text" placeholder="Your Name">
+                <input class="info" type="email" placeholder="Email">
+                <textarea class="info" placeholder="Message"></textarea>  
+                <button class="info btn btn-success">Send message</button>
+                <div class="address">
+                    <div><b>সংগে থাকুন</b></div>
+                    <div>
+                        <p>অফিস: ফার্মগেট, ঢাকা</p>
+                        <p>হটলাইন: (+৮৮) ০১xxxxxxxxx</p>
+                        <p>ইমেইল: info@homelet.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7303.478599981021!2d90.3828812250371!3d23.756674288345174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8a426199b0d%3A0x6a2c655d06c88ec9!2z4Kar4Ka-4Kaw4KeN4Kau4KaX4KeH4KafLCDgpqLgpr7gppXgpr4gMTIwNQ!5e0!3m2!1sbn!2sbd!4v1573306445567!5m2!1sbn!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer Section-->
+<section class="footerSection">
+    <div class="container footerSection">
+        <div class="row footerSection">
+            <div class="col-md-4">                
+                <h3>গুরুত্তপূর্ণ লিংক</h3>
+                <ul>
+                    <li><a href="about.html" class="hvr-pop">আমাদের সম্পর্কে</a></li>
+                    <li><a href="FAQ.html" class="hvr-pop">FAQ</a></li>
+                    <li><a href="pricing.html" class="hvr-pop">মূল্য তালিকা</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>যোগাযোগ</h3>
+                <p><i class="fas fa-map-marker-alt"></i> অফিস: ফার্মগেট, ঢাকা</p>
+                <p><i class="fas fa-phone-alt"></i> হটলাইন: (+৮৮) ০১xxxxxxxxx</p>
+                <p><i class="fas fa-envelope"></i> ইমেইল: info@homelet.com</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Social Media</h3>
+                <div class="socialMenu">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook i"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google i"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram i"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p i"></i></a></li>
+                    <li><a href="#"><i class="fab fa-reddit i"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube-square i"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin i"></i></a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center" style="color: #fff">&copy Copyright 2019. All Rights Reserved by Home Let</p>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/all.min.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

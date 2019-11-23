@@ -1,0 +1,144 @@
+.loginReg{
+    width: 100%;
+    float: right;
+    text-align: center;
+    background: #34495e;
+}
+.slides-navigation .prev,
+.slides-navigation .next{
+	height: 47px;
+    width: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.slides-navigation a.prev{
+    left: 20px;
+    background-image: url("../image/icons/prev.png");
+}
+.slides-navigation a.next{
+    right: 20px;
+    background-image: url("../image/icons/next.png");
+}
+.navbar-toggler-icon{
+    background-image: url(../image/icons/menu.png);
+}
+#navigation{
+    background: #006266; padding: 10px;
+}
+#navbarNav li a{
+    color: #fff; font-family: sans-serif;
+}
+#navbarNav li a:hover{
+    color: #78e08f;
+}
+.navbar-nav{
+    margin: auto;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #78e08f;
+}
+.titleMessage{
+    position: absolute;
+    z-index: 6;
+    top: 35%;
+    color: #c0392b;
+    text-align: center;
+    width: 100%;
+}
+.main{
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.image-resize{
+    height: 270px;
+    object-fit: contain;
+}
+.img-resize{
+    height: 150px; width: 100%;
+    object-fit: contain; 
+    display: block;
+}
+.section{
+    padding: 80px 0;
+    background-color: #CAD3C8;
+}
+.serviceSection a{
+    color: #000;
+}
+.aboutSection, .priceSection{
+    padding: 101px; background-color: #CAD3C8;
+}
+.squareItem{
+    display: inline-block;
+    position: relative;
+    margin: 15px 0px;
+    padding: 10px;
+    background: #F1F1F1;
+}
+.squareItem a{
+    color: #000;
+}
+.title{
+    position: absolute;
+    top: 5%;
+}
+.squareItem{
+    margin-top: 30px;
+    box-shadow: 1px 0px 4px 0px;
+}
+.info{
+    width: 100%;
+    padding: 10px;margin: 10px;
+}
+.mainSection{
+    float: left;
+    display: block;
+}
+.propertySection{
+    background: #006266;
+    color: #ffffff;
+}
+.address{
+    margin: 10px;
+}
+.contractType{
+    width: 100%; height: 35px;
+}
+.socialMenu ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px 10px 15px;
+}
+.socialMenu ul li .i{
+   font-size: 25px;
+}
+.footerSection{
+    background-color: #006266;
+    padding: 10px;
+}
+.footerSection ul{
+    list-style: none;   
+    padding-left: 0px;   
+}
+.footerSection ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    color: #fff;
+}
+.footer_container .footer_text{ 
+    text-align: center;
+    
+}
+.footer_container li{
+   list-style: none;
+}
